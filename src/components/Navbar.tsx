@@ -24,7 +24,7 @@ export function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-semibold tracking-tight">Horizon Voyages</h1>
+            <h1 className="text-2xl font-semibold tracking-tight">Diamond</h1>
           </div>
 
           {/* Desktop Navigation */}
@@ -33,16 +33,16 @@ export function Navbar() {
               href="#destinations"
               className="text-sm font-medium text-foreground/70 hover:text-foreground transition-colors"
             >
-              Направления
+              Каталог
             </a>
             <a
               href="#packages"
               className="text-sm font-medium text-foreground/70 hover:text-foreground transition-colors"
             >
-              Туры
+              Комплекты
             </a>
             <a href="#about" className="text-sm font-medium text-foreground/70 hover:text-foreground transition-colors">
-              О нас
+              О компании
             </a>
             <a
               href="#contact"
@@ -55,7 +55,7 @@ export function Navbar() {
           {/* CTA Button */}
           <div className="hidden md:block">
             <Button className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-6">
-              Забронировать
+              Запросить цену
             </Button>
           </div>
 
@@ -71,19 +71,19 @@ export function Navbar() {
         <div className="md:hidden bg-white border-t border-border">
           <div className="px-6 py-6 space-y-4">
             <a href="#destinations" className="block text-base font-medium text-foreground/70 hover:text-foreground">
-              Направления
+              Каталог
             </a>
             <a href="#packages" className="block text-base font-medium text-foreground/70 hover:text-foreground">
-              Туры
+              Комплекты
             </a>
             <a href="#about" className="block text-base font-medium text-foreground/70 hover:text-foreground">
-              О нас
+              О компании
             </a>
             <a href="#contact" className="block text-base font-medium text-foreground/70 hover:text-foreground">
               Контакты
             </a>
             <Button className="w-full bg-primary text-primary-foreground hover:bg-primary/90 rounded-full">
-              Забронировать
+              Запросить цену
             </Button>
           </div>
         </div>
